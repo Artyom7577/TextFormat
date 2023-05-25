@@ -11,13 +11,13 @@ public class Word {
     public static void main(String[] args) {
 
 
-        String file1Path = "/Users/artyom7577/Desktop/JavaOOP/TextFormat/src/1.txt";
-        String file2Path = "/Users/artyom7577/Desktop/JavaOOP/TextFormat/src/2.txt";
-        String dbFilePath = "/Users/artyom7577/Desktop/JavaOOP/TextFormat/src/db.txt";
+        String file1Path = "1.txt"; // write here your absolute path for "1.txt";
+        String file2Path = "2.txt"; // write here your absolute path for "2.txt";
+        String dbFilePath = "db.txt"; // write here your absolute path for "db.txt";
 
 
         // NEW FILE FOR NORMALIZED WORDS!
-        String newDbFilePath = "/Users/artyom7577/Desktop/JavaOOP/TextFormat/src/newDbFile.txt";
+        String newDbFilePath = "newDbFile.txt"; // write here your absolute path for "db.txt";
 
 
         try {
