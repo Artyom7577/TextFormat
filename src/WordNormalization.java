@@ -70,7 +70,7 @@ public class WordNormalization {
     private static Map<String, String> createNormalizationRules() {
         Map<String, String> normalizationRules = new HashMap<>();
 
-        try (BufferedReader reader = new BufferedReader(new FileReader("/Users/artyom7577/Desktop/JavaOOP/TextFormat/src/words_alpha.txt"))) {
+        try (BufferedReader reader = new BufferedReader(new FileReader("words_alpha.txt"))) {
             String line;
             while ((line = reader.readLine()) != null) {
                 String trimmedLine = line.trim();
